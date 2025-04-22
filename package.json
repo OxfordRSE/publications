@@ -1,0 +1,17 @@
+{
+  "name": "oxrse-publications",
+  "version": "2025.4.1",
+  "description": "OxRSE publications list",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@citation-js/core": "^0.7.18",
+    "@citation-js/plugin-csl": "^0.7.18",
+    "@citation-js/plugin-doi": "^0.7.18",
+    "glob": "^11.0.1"
+  }
+}
