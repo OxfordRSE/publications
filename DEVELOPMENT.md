@@ -1,10 +1,29 @@
 # OxRSE publications
 
 This data repository contains a list of publications pertaining to various
-projects. Each project has a text file with a list of DOIs that is used by
-`listPublications.js` to generate citations in markdown format.
+projects. Each project is a text file with a list of DOIs, one per line, that is used by
+`listPublications.js` to generate citations in Markdown format.
 
-## Setup
+## Adding publications
+
+To create a new project subheading in the output, create a file in the
+[data](data) folder with a `.txt` suffix, having the same name as the project.
+The data file format is one DOI per line. The full DOI URL (with
+https://doi.org) is optional. Create a pull request, and GitHub CI should
+update the README.md.
+
+## Adding people
+
+The [people.json](people.json) file contains a list of people (format: Surname, F.)
+that is used to highlight members of the team in the output citation format. If
+you have multiple possible spellings or initials (for example, a middle
+initial), add all possible combinations here, with the longest string length
+first, as lookups proceed sequentially from the top of the array. For example,
+if you have a long name with many initials, such as `ReallyLongName, M. A. N.
+Y.`, then that should come before the short form `ReallyLongName, Y.` in
+`people.json`.
+
+## Setup -- local development
 
 The script requires Node.js >= 20 and npm installed.
 
@@ -18,20 +37,5 @@ npm ci
 To run the list publications script:
 
 ```shell
-node listPublications.js
+node listPublications.js > README.md
 ```
-
-The [people.json](people.json) contains a list of people (format: Surname, F.)
-that is used to highlight members of the team in the output citation format. If
-you have multiple possible spellings or initials (for example, a middle
-initial), add all possible combinations here, with the longest string length
-first, as lookups proceed sequentially from the top of the array. For example,
-if you have a long name with many initials, such as `ReallyLongName, M. A. N.
-Y.`, then that should come before the short form `ReallyLongName, Y.` in
-`people.json`.
-
-## Adding a project
-
-Create a file in the [data](data) folder with a `.txt` suffix. The name of the
-project is taken to be the part before the `.txt`. The format of the file is
-one DOI per line. The full DOI URL is optional.

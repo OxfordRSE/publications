@@ -1,0 +1,28 @@
+# Workflow to publish README.md on data or people changes
+
+name: publications
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - listPublications.js
+      - data/**/*.txt
+      - people.json
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate publications list
+        run: |
+          node listPublications.js > README.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m 'Generate README.md'
+          git push
