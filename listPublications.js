@@ -9,8 +9,6 @@ require('@citation-js/plugin-doi')
 require('@citation-js/plugin-csl')
 
 const header = `
-# Oxford RSE Publications
-
 This page contains a list of research articles published by members
 of the Oxford RSE team, grouped by project.
 
