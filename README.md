@@ -24,15 +24,15 @@ Visit our main website at https://www.rse.ox.ac.uk to learn more.
 
 ## OxMET 
 
-- Webb, S. S., Jespersen, A., Chiu, E. G., Payne, F., Basting, R., **Duta, M.** D., & Demeyere, N. (2021). The Oxford digital multiple errands test (OxMET): Validation of a simplified computer tablet based multiple errands test. Neuropsychological Rehabilitation, 32(6), 1007–1032. https://doi.org/10.1080/09602011.2020.1862679
+- Webb, S. S., Jespersen, A., Chiu, E. G., Payne, F., Basting, R., **Duta, M. D.**, & Demeyere, N. (2021). The Oxford digital multiple errands test (OxMET): Validation of a simplified computer tablet based multiple errands test. Neuropsychological Rehabilitation, 32(6), 1007–1032. https://doi.org/10.1080/09602011.2020.1862679
 
 ## OCSPlus 
 
-- Demeyere, N., Haupt, M., Webb, S. S., Strobel, L., Milosevich, E. T., Moore, M. J., Wright, H., Finke, K., & **Duta, M.** D. (2021). Introducing the tablet-based Oxford Cognitive Screen-Plus (OCS-Plus) as an assessment tool for subtle cognitive impairments. Scientific Reports, 11(1). https://doi.org/10.1038/s41598-021-87287-8
+- Demeyere, N., Haupt, M., Webb, S. S., Strobel, L., Milosevich, E. T., Moore, M. J., Wright, H., Finke, K., & **Duta, M. D.** (2021). Introducing the tablet-based Oxford Cognitive Screen-Plus (OCS-Plus) as an assessment tool for subtle cognitive impairments. Scientific Reports, 11(1). https://doi.org/10.1038/s41598-021-87287-8
 
-- Humphreys, G. W., **Duta, M.** D., Montana, L., Demeyere, N., McCrory, C., Rohr, J., Kahn, K., Tollman, S., & Berkman, L. (2016). Cognitive Function in Low-Income and Low-Literacy Settings: Validation of the Tablet-Based Oxford Cognitive Screen in the Health and Aging in Africa: A Longitudinal Study of an INDEPTH Community in South Africa (HAALSI). The Journals of Gerontology Series B: Psychological Sciences and Social Sciences, 72(1), 38–50. https://doi.org/10.1093/geronb/gbw139
+- Humphreys, G. W., **Duta, M. D.**, Montana, L., Demeyere, N., McCrory, C., Rohr, J., Kahn, K., Tollman, S., & Berkman, L. (2016). Cognitive Function in Low-Income and Low-Literacy Settings: Validation of the Tablet-Based Oxford Cognitive Screen in the Health and Aging in Africa: A Longitudinal Study of an INDEPTH Community in South Africa (HAALSI). The Journals of Gerontology Series B: Psychological Sciences and Social Sciences, 72(1), 38–50. https://doi.org/10.1093/geronb/gbw139
 
-- Webb, S. S., Jespersen, A., Chiu, E. G., Payne, F., Basting, R., **Duta, M.** D., & Demeyere, N. (2021). The Oxford digital multiple errands test (OxMET): Validation of a simplified computer tablet based multiple errands test. Neuropsychological Rehabilitation, 32(6), 1007–1032. https://doi.org/10.1080/09602011.2020.1862679
+- Webb, S. S., Jespersen, A., Chiu, E. G., Payne, F., Basting, R., **Duta, M. D.**, & Demeyere, N. (2021). The Oxford digital multiple errands test (OxMET): Validation of a simplified computer tablet based multiple errands test. Neuropsychological Rehabilitation, 32(6), 1007–1032. https://doi.org/10.1080/09602011.2020.1862679
 
 ## LanguageScreen 
 
