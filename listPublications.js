@@ -12,7 +12,7 @@ const header = `
 This page contains a list of research articles published by members
 of the Oxford RSE team, grouped by project.
 
-Visit our main website at https://www.rse.ox.ac.uk to learn more.
+Visit our main website at <https://www.rse.ox.ac.uk> to learn more.
 `;
 
 // Entry point
@@ -38,7 +38,7 @@ async function processFile(filePath, people) {
   console.log("##", stem, "\n")
   for await (const line of rl) {
     const processed = await retrieveCitation(line);
-    console.log("-", highlightMatches(processed, people))
+    console.log("-", linkURLs(highlightMatches(processed, people)))
   }
 }
 
@@ -49,6 +49,13 @@ function highlightMatches(text, words) {
   const regex = new RegExp(`(${escapedWords.join('|')})`, 'gi');
 
   return text.replace(regex, '**$1**');
+}
+
+function linkURLs(text) {
+  return text.replace(
+    /\bhttps?:\/\/\S+\b/g,
+    match => `<${match}>`
+  );
 }
 
 // Function to process a single line
