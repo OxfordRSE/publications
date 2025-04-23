@@ -8,11 +8,21 @@ const { Cite } = require('@citation-js/core')
 require('@citation-js/plugin-doi')
 require('@citation-js/plugin-csl')
 
+const header = `
+# Oxford RSE Publications
+
+This page contains a list of research articles published by members
+of the Oxford RSE team, grouped by project.
+
+Visit our main website at https://www.rse.ox.ac.uk to learn more.
+`;
+
 // Entry point
 async function main() {
   try {
     const people = JSON.parse(fs.readFileSync('./people.json', 'utf-8'));
     const files = await glob('data/**/*.txt');
+    console.log(header);
     for (const file of files) {
       await processFile(file, people);
     }
