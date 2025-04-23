@@ -24,7 +24,11 @@ node listPublications.js
 The [people.json](people.json) contains a list of people (format: Surname, F.)
 that is used to highlight members of the team in the output citation format. If
 you have multiple possible spellings or initials (for example, a middle
-initial), add all possible combinations here.
+initial), add all possible combinations here, with the longest string length
+first, as lookups proceed sequentially from the top of the array. For example,
+if you have a long name with many initials, such as `ReallyLongName, M. A. N.
+Y.`, then that should come before the short form `ReallyLongName, Y.` in
+`people.json`.
 
 ## Adding a project
 
