@@ -18,7 +18,7 @@ Visit our main website at <https://www.rse.ox.ac.uk> to learn more.
 // Entry point
 async function main() {
   try {
-    const people = JSON.parse(fs.readFileSync('./people.json', 'utf-8'));
+    const people = await loadPeopleNames('people.txt');
     const files = await glob('data/**/*.txt');
     console.log(header);
     for (const file of files) {
@@ -28,6 +28,22 @@ async function main() {
     console.error('Error:', err);
   }
 }
+
+// Function to load people names
+async function loadPeopleNames(filePath) {
+  const readStream = fs.createReadStream(filePath);
+  const rl = readline.createInterface({ input: readStream });
+  const people = [];
+
+  for await (const line of rl) {
+    const lineTrimmed = line.trim();
+    if (lineTrimmed.startsWith('#') || lineTrimmed === '') continue;
+    people.push(lineTrimmed);
+  }
+  return people;
+}
+
+
 
 // Function to process a single file
 async function processFile(filePath, people) {

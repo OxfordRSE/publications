@@ -1,0 +1,21 @@
+# List of people (format: Surname, F.) that is used to highlight members of the
+# team in the output citation format. If you have multiple possible spellings or
+# middle initials, add all possible combinations here, with the longest string
+# length first, as lookups proceed sequentially from top to bottom.
+
+Robinson, M.
+Cooper, F.
+Duta, M. D.
+Duta, M.
+Dasgupta, A.
+King, O.
+Leland, J.
+Jaquiery, M.
+Brittain, J.
+Liggins, P.
+Wilson, A.
+O'Donnell, J.
+Payette, N.
+Allmont, A.
+Blanche, D.
+Thompson, G.

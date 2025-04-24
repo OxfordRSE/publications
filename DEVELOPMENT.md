@@ -14,14 +14,13 @@ update the README.md.
 
 ## Adding people
 
-The [people.json](people.json) file contains a list of people (format: Surname, F.)
-that is used to highlight members of the team in the output citation format. If
-you have multiple possible spellings or initials (for example, a middle
-initial), add all possible combinations here, with the longest string length
-first, as lookups proceed sequentially from the top of the array. For example,
-if you have a long name with many initials, such as `ReallyLongName, M. A. N.
-Y.`, then that should come before the short form `ReallyLongName, Y.` in
-`people.json`.
+The [people.txt](people.txt) file contains a list of people (format: Surname,
+F.) that is used to highlight members of the team in the output citation
+format. If you have multiple possible spellings or middle initials, add all
+possible combinations here, with the longest string length first, as lookups
+proceed sequentially from the top of the array. For example, if you have a long
+name with many initials, such as `ReallyLongName, M. A. N. Y.`, then that
+should come before the short form `ReallyLongName, Y.`.
 
 ## Setup -- local development
 
