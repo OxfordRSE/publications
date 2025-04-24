@@ -1,13 +1,21 @@
 ---
 ---
+@import "https://fonts.googleapis.com/css?family=Lato:700,700i,400,400i%7CRoboto:400,400i,700,700i";
+
+$body-font: Roboto;
+$bg-white: #ffffff;
 
 @import "{{ site.theme }}";
 
-@import "https://fonts.googleapis.com/css?family=Lato:700,700i,400,400i%7CRoboto:400,400i,700,700i";
-
-body {
-  font-family: Roboto, sans-serif !important;
+a {
+  color: #092044;
+  text-decoration: underline;
 }
+
+a:hover {
+  color: #355b83;
+}
+
 h1, h2, h3 {
   font-family: Lato, sans-serif !important;
   color: #092044;
