@@ -12,8 +12,13 @@ a {
   text-decoration: underline;
 }
 
+h1 a {
+  text-decoration: none;
+}
+
 a:hover {
   color: #355b83;
+  text-decoration: underline;
 }
 
 h1, h2, h3 {
