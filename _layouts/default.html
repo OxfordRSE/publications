@@ -10,14 +10,36 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="container-lg px-3 my-5 markdown-body">
+      <div>
+          <div style="float:left">
       <img src="https://www.rse.ox.ac.uk/sites/default/files/rse/site-logo/2024_oxrse_next_to_oxford.svg" alt="OxRSE Logo" width="320"/>
+          </div>
+          <div style="float:left; margin-left: 1em">
+              <span style="font-size: 2rem; color: #092044">Oxford Research Software Engineering Group</span>
+          </div>
+      </div>
+      <nav style="clear: both; float: none">
+          <ul>
+              <li><a href="https://www.rse.ox.ac.uk">Home</a></li>
+              <li><a href="https://www.rse.ox.ac.uk/details">How It Works</a></li>
+              <li><a href="https://www.rse.ox.ac.uk/people">People</a></li>
+              <li><a href="https://www.rse.ox.ac.uk/projects">Portfolio</a></li>
+              <li><a href="https://www.rse.ox.ac.uk/training">Training</a></li>
+              <li><a href="https://www.rse.ox.ac.uk/contact">Get In Touch</a></li>
+              <li><a href="https://www.rse.ox.ac.uk/vacancies">Work With Us</a></li>
+              <li><a href="https://www.rse.ox.ac.uk/resources">Resources</a></li>
+              <li><a>Publications</a></li>
+          </ul>
+      </nav>
+
+      <div id="content" style="clear: both">
       {% if site.title and site.title != page.title %}
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      <h1>{{ site.title }}</h1>
       {% endif %}
 
       {{ content }}
 
+      </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>

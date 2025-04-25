@@ -25,3 +25,14 @@ h1, h2, h3 {
   font-family: Lato, sans-serif !important;
   color: #092044;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.2rem;
+}
