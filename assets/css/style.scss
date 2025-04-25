@@ -4,8 +4,27 @@
 
 $body-font: Roboto;
 $bg-white: #ffffff;
+$fg-blue: #092044;
+$font-alt: Lato;
 
 @import "{{ site.theme }}";
+
+body {
+  margin: auto;
+  width: 90%;
+  max-width: 1480px;
+}
+
+li, p {
+  font-size: 1.05rem;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-left: 0.8rem;
+}
 
 a {
   color: #092044;
@@ -16,23 +35,51 @@ h1 a {
   text-decoration: none;
 }
 
+span.grouptitle {
+  font-size: 2.35rem;
+  font-weight: bold;
+  color: $fg-blue;
+  font-family: $font-alt, sans-serif !important;
+}
+
+span.grouptitle a {
+  text-decoration: none;
+}
+
 a:hover {
   color: #355b83;
   text-decoration: underline;
 }
 
 h1, h2, h3 {
-  font-family: Lato, sans-serif !important;
-  color: #092044;
+  font-family: $font-alt, sans-serif !important;
+  color: $fg-blue;
+}
+
+nav {
+  padding-top: 1rem;
+  margin-left: -1rem;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 
 nav li {
+  font-family: $font-alt, sans-serif !important;
   display: inline-block;
   font-size: 1.2rem;
+}
+
+nav a {
+  font-family: $font-alt, sans-serif !important;
+  padding: 1rem 0.4rem;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+ 
+nav a:hover {
+  background-color: #eeeeee;
+  text-decoration: none;
 }

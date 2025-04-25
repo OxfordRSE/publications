@@ -2,8 +2,6 @@
 This page contains a list of research articles published by members
 of the Oxford RSE team, grouped by project.
 
-Visit our main website at <https://www.rse.ox.ac.uk> to learn more.
-
 ## PyBAMM 
 
 - Sulzer, V., Marquis, S. G., Timms, R., **Robinson, M.**, & Chapman, S. J. (2021). Python Battery Mathematical Modelling (PyBaMM). Journal of Open Research Software, 9(1), 14. <https://doi.org/10.5334/jors.309>

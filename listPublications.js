@@ -11,8 +11,6 @@ require('@citation-js/plugin-csl')
 const header = `
 This page contains a list of research articles published by members
 of the Oxford RSE team, grouped by project.
-
-Visit our main website at <https://www.rse.ox.ac.uk> to learn more.
 `;
 
 // Entry point
