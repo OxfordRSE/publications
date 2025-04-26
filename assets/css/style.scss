@@ -12,11 +12,20 @@ $font-alt: Lato;
 body {
   margin: auto;
   width: 90%;
-  max-width: 1480px;
+  max-width: 1200px;
+}
+
+h1 {
+  margin-top: 1rem;
 }
 
 li, p {
-  font-size: 1.05rem;
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 ul {
@@ -46,6 +55,11 @@ span.grouptitle a {
   text-decoration: none;
 }
 
+span.grouptitle a:hover {
+  text-decoration: underline;
+  color: $fg-blue;
+}
+
 a:hover {
   color: #355b83;
   text-decoration: underline;
@@ -58,7 +72,7 @@ h1, h2, h3 {
 
 nav {
   padding-top: 1rem;
-  margin-left: -1rem;
+  margin-left: -0.77rem;
 }
 
 nav ul {
