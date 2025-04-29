@@ -40,6 +40,10 @@ a {
   text-decoration: underline;
 }
 
+a.current, a.current:hover {
+  background-color: #dee1df;
+}
+
 h1 a {
   text-decoration: none;
 }
