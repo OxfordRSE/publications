@@ -4,6 +4,7 @@
 # length first, as lookups proceed sequentially from top to bottom.
 
 Robinson, M.
+Cooper, F. R.
 Cooper, F.
 Duta, M. D.
 Duta, M.
