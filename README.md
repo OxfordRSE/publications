@@ -10,6 +10,14 @@ of the Oxford RSE team, grouped by project.
 
 - Ostinelli, E. G., **Jaquiery, M.**, Liu, Q., Elgarf, R., Haque, N., Potts, J., Li, Z., Efthimiou, O., Markham, S., Ede, R., Wainwright, L., Fernandes, K. B. P., Fernandes, B. B. P., Dalaqua, P. V. C., Tomlinson, A., Smith, K. A., Zangani, C., De Crescenzo, F., Liboni, M., … Cipriani, A. (2025). Personalising Antidepressant Treatment for Unipolar Depression Combining Individual Choices, Risks and big Data: The PETRUSHKA Tool: Personnalisation du traitement antidépresseur de la dépression unipolaire associant choix individuels, risques et mégadonnées: l’outil PETRUSHKA. The Canadian Journal of Psychiatry. <https://doi.org/10.1177/07067437251322399>
 
+## PalamaraLab
+
+- Nait Saada, J., Kalantzis, G., Shyr, D., **Cooper, F.**, **Robinson, M.**, Gusev, A., & Palamara, P. F. (2020). Identity-by-descent detection across 487,409 British samples reveals fine scale population structure and ultra-rare variant associations. Nature Communications, 11(1). <https://doi.org/10.1038/s41467-020-19588-x>
+
+- Zhang, B. C., Biddanda, A., Gunnarsson, Á. F., **Cooper, F.**, & Palamara, P. F. (2023). Biobank-scale inference of ancestral recombination graphs enables genealogical analysis of complex traits. Nature Genetics, 55(5), 768–776. <https://doi.org/10.1038/s41588-023-01379-x>
+
+- Loya, H., Kalantzis, G., **Cooper, F.**, & Palamara, P. F. (2025). A scalable variational inference approach for increased mixed-model association power. Nature Genetics, 57(2), 461–468. <https://doi.org/10.1038/s41588-024-02044-7>
+
 ## POSEIDON 
 
 - Carrella, E., Powers, J., Saul, S., Bailey, R. M., **Payette, N.**, Vert-pre, K. A., Ananthanarayanan, A., Drexler, M., Dorsett, C., & Madsen, J. K. (2024). Rejection sampling and agent-based models for data limited fisheries. Frontiers in Marine Science, 11. <https://doi.org/10.3389/fmars.2024.1243954>
@@ -17,6 +25,10 @@ of the Oxford RSE team, grouped by project.
 - Madsen, J. K., Powers, B., Bailey, R., Carrella, E., **Payette, N.**, & Pilditch, T. (2024). Modelling Adaptive and Anticipatory Human Decision-Making in Complex Human-Environment Systems. Journal of Artificial Societies and Social Simulation, 27(1). <https://doi.org/10.18564/jasss.5214>
 
 - **Payette, N.**, Carella, E., Vert-Pre, K., Powers, B., Saul, S., Drexler, M., Ananthanarayanan, A., & Bailey, R. (2023). Attracted to Fish: A Gravity-Based Model of Purse-Seine Vessel Behaviour. In Springer Proceedings in Complexity (pp. 87–103). Springer Nature Switzerland. <https://doi.org/10.1007/978-3-031-34920-1_8>
+
+## PDQ
+
+- Benedikt, M., **Cooper, F.**, Germano, S., Gyorkei, G., Tsamoura, E., Moore, B., & Ortiz, C. (2023). PDQ 2.0. ACM SIGMOD Record, 51(4), 36–41. <https://doi.org/10.1145/3582302.3582308>
 
 ## OxMET 
 
@@ -57,4 +69,8 @@ of the Oxford RSE team, grouped by project.
 - Gonçalves, B. P., Hall, M., Jassat, W., Balan, V., Murthy, S., Kartsonaki, C., Semple, M. G., Rojek, A., Baruch, J., Reyes, L. F., **Dasgupta, A.**, Dunning, J., Citarella, B. W., Pritchard, M., Martín-Quiros, A., Sili, U., Baillie, J. K., Aryal, D., Arabi, Y., … Olliaro, P. L. (2022). An international observational study to assess the impact of the Omicron variant emergence on the clinical epidemiology of COVID-19 in hospitalised patients. eLife, 11. <https://doi.org/10.7554/elife.80556>
 
 - Kraemer, M. U. G., Tegally, H., Pigott, D. M., **Dasgupta, A.**, Sheldon, J., Wilkinson, E., Schultheiss, M., Han, A., Oglia, M., Marks, S., Kanner, J., O’Brien, K., Dandamudi, S., Rader, B., Sewalk, K., Bento, A. I., Scarpino, S. V., de Oliveira, T., Bogoch, I. I., … Brownstein, J. S. (2022). Tracking the 2022 monkeypox outbreak with epidemiological data in real-time. The Lancet Infectious Diseases, 22(7), 941–942. <https://doi.org/10.1016/s1473-3099(22)00359-0>
+
+## Chaste
+
+- **Cooper, F.**, Baker, R., Bernabeu, M., Bordas, R., Bowler, L., Bueno-Orovio, A., Byrne, H., Carapella, V., Cardone-Noott, L., Cooper, J., Dutta, S., Evans, B., Fletcher, A., Grogan, J., Guo, W., Harvey, D., Hendrix, M., Kay, D., Kursawe, J., … Gavaghan, D. (2020). Chaste: Cancer, Heart and Soft Tissue Environment. Journal of Open Source Software, 5(47), 1848. <https://doi.org/10.21105/joss.01848>
 
