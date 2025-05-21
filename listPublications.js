@@ -19,7 +19,7 @@ async function main() {
     const people = await loadPeopleNames('people.txt');
     const files = await glob('data/**/*.txt');
     console.log(header);
-    for (const file of files) {
+    for (const file of files.reverse()) {
       await processFile(file, people);
     }
   } catch (err) {
@@ -49,7 +49,7 @@ async function processFile(filePath, people) {
   const rl = readline.createInterface({ input: readStream });
 
   const stem = path.basename(filePath, path.extname(filePath));
-  console.log("##", stem, "\n")
+  console.log(`## ${stem}\n`)
   for await (const line of rl) {
     const processed = await retrieveCitation(line);
     console.log("-", linkURLs(highlightMatches(processed, people)))
