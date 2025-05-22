@@ -2,6 +2,13 @@
 
 name: publications
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - listPublications.js
+      - data/**/*.txt
+      - people.json
   pull_request:
     branches:
       - main
@@ -9,6 +16,7 @@ on:
       - listPublications.js
       - data/**/*.txt
       - people.json
+  workflow_dispatch:
 
 jobs:
   build:
@@ -20,9 +28,10 @@ jobs:
           node-version: 22
       - name: Generate publications list
         run: |
+          npm ci
           node listPublications.js > README.md
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m 'Generate README.md'
+          git commit -m 'Update README.md'
           git push
