@@ -78,7 +78,6 @@ of the Oxford RSE team, grouped by project.
 
 - Planden, B., Courtier, N. E., **Robinson, M.**, Khetarpal, A., Planella, F. B., & Howey, D. A. (2024). PyBOP: A Python package for battery model optimisation and parameterisation (Version 1). arXiv. <https://doi.org/10.48550/ARXIV.2412.15859>
 
-- 
 ## Research Software Engineering
 
 - Hettrick, S., Bast, R., Crouch, S., Wyatt, C., Philippe, O., Botzki, A., Carver, J., Cosden, I., D’Andrea, F., **Dasgupta, A.**, Godoy, W., Gonzalez-Beltran, A., Hamster, U., Henwood, S., Holmvall, P., Janosch, S., **Lestang, T.**, May, N., Philips, J., … Zhang, Q. (2022). International RSE Survey 2022 (v0.9.3) [Computer software]. Zenodo. <https://doi.org/10.5281/ZENODO.7015772>
