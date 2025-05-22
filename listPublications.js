@@ -51,7 +51,9 @@ async function processFile(filePath, people) {
   const stem = path.basename(filePath, path.extname(filePath));
   console.log(`## ${stem}\n`)
   for await (const line of rl) {
-    const processed = await retrieveCitation(line);
+    const trimmedLine = line.trim();
+    if (trimmedLine === '') continue;
+    const processed = await retrieveCitation(trimmedLine);
     console.log("-", linkURLs(highlightMatches(processed, people)))
   }
 }
